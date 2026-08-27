@@ -1,0 +1,23 @@
+{
+  "name": "aio-readme",
+  "version": "1.0.0",
+  "description": "Optimize your GitHub README for AI Search Engines (Perplexity, ChatGPT, Claude). Instantly boost your repo's discoverability in the AI era.",
+  "main": "index.js",
+  "bin": {
+    "aio-readme": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ai-seo",
+    "aio",
+    "readme",
+    "perplexity",
+    "chatgpt",
+    "claude",
+    "discoverability"
+  ],
+  "author": "albertstayhome",
+  "license": "MIT"
+}
