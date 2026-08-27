@@ -6,9 +6,9 @@ const https = require('https');
 
 function printSponsorMessage() {
     console.log('\n\x1b[36m=================================================================\x1b[0m');
-    console.log('\x1b[1m\x1b[35m✨  Want more AI growth tools? ✨\x1b[0m');
+    console.log('\x1b[1m\x1b[35m?? Want more AI growth tools? ?�\x1b[0m');
     console.log('Support the developer to keep this project alive:');
-    console.log('\n👉 \x1b[32mhttps://polar.sh/albert-dev\x1b[0m 👈');
+    console.log('\n?? \x1b[32mhttps://polar.sh/albert-dev\x1b[0m ??');
     console.log('\x1b[36m=================================================================\x1b[0m\n');
 }
 
@@ -68,7 +68,7 @@ const requestBody = JSON.stringify({
 
 const options = {
     hostname: 'generativelanguage.googleapis.com',
-    path: `/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+    path: `/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',
