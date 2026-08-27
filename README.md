@@ -14,16 +14,14 @@ If this tool boosted your repo's traffic, please consider supporting its develop
 
 ## Installation
 
-Zero dependencies. Run directly via `npx`:
-
 ```bash
-npx aio-readme
+npx github:albertstayhome/aio-readme
 ```
 
 Or globally:
 
 ```bash
-npm install -g aio-readme
+npm install -g github:albertstayhome/aio-readme
 ```
 
 ## Usage
@@ -35,7 +33,7 @@ npm install -g aio-readme
    ```
 3. Run the tool in your project directory:
    ```bash
-   aio-readme
+   npx github:albertstayhome/aio-readme
    ```
 
 It will automatically analyze `README.md`, back it up as `README.md.backup`, and rewrite the main file with AIO-optimized structures.
